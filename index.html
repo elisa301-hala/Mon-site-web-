@@ -3,43 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G.O.A.T Rollers | Accueil</title>
+    <title>Freeskate Slalom | Vente de Rollers</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <nav class="navbar">
-            <div class="logo">GOAT<span>Skate</span><span class="number-10">10</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="boutique.html">Boutique</a></li>
-                <li><a href="propos.html">À Propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="panier.html">Panier</a></li>
+        <!-- Nom du site stylisé -->
+        <div class="logo">Freeskate<span>Slalom</span></div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#produits">Shop</a></li>
+                <li><a href="#accessories">Accessoires</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <div class="cart-icon">
+            🛒 <span class="badge">0</span>
+        </div>
     </header>
 
     <section class="hero">
-        <h1>Glissez avec la vitesse du <span>G.O.A.T</span></h1>
-        <p>Découvrez notre collection exclusive de rollers haute performance aux couleurs de la légende. Précision, agilité et style unique.</p>
-        <div class="cta-buttons">
-            <a href="boutique.html" class="btn">Acheter Maintenant</a>
-            <a href="propos.html" class="btn btn-secondary">Notre Histoire</a>
+        <div class="hero-content">
+            <h1>Trouve le Roller de tes Rêves</h1>
+            <p>Que tu sois fan de Street, de Freeskate, de slalom ou de Randonnée, glisse avec style et performance.</p>
+            <a href="#produits" class="btn">Découvrir le Shop</a>
         </div>
     </section>
 
-    <main class="container">
-        <h2 class="page-title">Modèles <span>Vedettes</span></h2>
+    <main id="produits">
+        <h2>Nos Modèles Phares</h2>
         <div class="product-grid">
+            
+            <!-- 1. Roller Street Pro X -->
             <div class="product-card">
-                <div class="product-img" style="background: #e2f0fd; color: #75AADB;">[ Image Roller Albiceleste ]</div>
+                <div class="product-badge">Top Vente</div>
+                <div class="product-img-placeholder">🛼</div>
                 <div class="product-info">
-                    <h3 class="product-title">Roller Léo "Albiceleste" Pro</h3>
-                    <p class="product-price">189,99 €</p>
-                    <a href="panier.html" class="btn">Ajouter au panier</a>
+                    <h3>Roller Street Pro X</h3>
+                    <p class="category">Freestyle / Street</p>
+                    <p class="performance">⚡ Vitesse : 8/10 | 🎯 Maniabilité : 9/10</p>
+                    <p class="pub-text">Le roi des modules urbains. Conçu pour résister aux gaps les plus fous !</p>
+                    <p class="price">230.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
                 </div>
             </div>
+
+            <!-- 2. Freeskate Element -->
             <div class="product-card">
-                <div class="product-img" style="
+                <div class="product-badge">Nouveauté</div>
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Freeskate Element</h3>
+                    <p class="category">Freeskate / Urbain</p>
+                    <p class="performance">⚡ Vitesse : 9/10 | 🎯 Maniabilité : 8/10</p>
+                    <p class="pub-text">Sillonnez la ville avec une fluidité absolue. Platine en aluminium renforcé.</p>
+                    <p class="price">250.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 3. Slalom Master 500 -->
+            <div class="product-card">
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Slalom Master 500</h3>
+                    <p class="category">Slalom</p>
+                    <p class="performance">⚡ Vitesse : 7/10 | 🎯 Maniabilité : 10/10</p>
+                    <p class="pub-text">Une précision chirurgicale pour vos figures et pas de danse les plus techniques.</p>
+                    <p class="price">300.000 ar €</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 4. Rando Cruiser 84 -->
+            <div class="product-card">
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Rando Cruiser 84</h3>
+                    <p class="category">Randonnée</p>
+                    <p class="performance">⚡ Vitesse : 8/10 | 🎯 Maniabilité : 7/10</p>
+                    <p class="pub-text">Le confort absolu pour les longues balades du dimanche en famille ou entre amis.</p>
+                    <p class="price">270.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 5. Speed Carbon V2 -->
+            <div class="product-card">
+                <div class="product-badge">Premium</div>
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Speed Carbon V2</h3>
+                    <p class="category">Vitesse / Course</p>
+                    <p class="performance">⚡ Vitesse : 10/10 | 🎯 Maniabilité : 6/10</p>
+                    <p class="pub-text">Coque 100% carbone et roues de 110mm pour briser tous vos records de vitesse.</p>
+                    <p class="price">260.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 6. Retro Quad Roller -->
+            <div class="product-card">
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Retro Quad Roller</h3>
+                    <p class="category">Fitness / Dance</p>
+                    <p class="performance">⚡ Vitesse : 6/10 | 🎯 Maniabilité : 8/10</p>
+                    <p class="pub-text">Un look vintage irrésistible combiné au confort moderne pour le roller dance.</p>
+                    <p class="price">320.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 7. Junior Urban Grow -->
+            <div class="product-card">
+                <div class="product-badge">Enfant</div>
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Junior Urban Grow</h3>
+                    <p class="category">Enfant / Évolutif</p>
+                    <p class="performance">⚡ Vitesse : 6/10 | 🎯 Maniabilité : 8/10</p>
+                    <p class="pub-text">Ajustable sur 4 tailles. Idéal pour accompagner la croissance de vos futurs champions.</p>
+                    <p class="price">220.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 8. Aggressive Grid Pro -->
+            <div class="product-card">
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Aggressive Grid Pro</h3>
+                    <p class="category">Street / Skatepark</p>
+                    <p class="performance">⚡ Vitesse : 6/10 | 🎯 Maniabilité : 9/10</p>
+                    <p class="pub-text">Équipé de H-Block larges pour caler vos meilleurs grinds sur les rails.</p>
+                    <p class="price">330.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 9. Alpine Downhill -->
+            <div class="product-card">
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Alpine Downhill</h3>
+                    <p class="category">Descente / Freeride</p>
+                    <p class="performance">⚡ Vitesse : 10/10 | 🎯 Maniabilité : 7/10</p>
+                    <p class="pub-text">Stabilité maximale à haute vitesse pour les adeptes de sensations fortes en pente.</p>
+                    <p class="price">425.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+            <!-- 10. Allroad SUV 125 -->
+            <div class="product-card">
+                <div class="product-badge">Tout-terrain</div>
+                <div class="product-img-placeholder">🛼</div>
+                <div class="product-info">
+                    <h3>Allroad SUV 125</h3>
+                    <p class="category">Tout-terrain</p>
+                    <p class="performance">⚡ Vitesse : 7/10 | 🎯 Maniabilité : 6/10</p>
+                    <p class="pub-text">Des pneus gonflables pour ne plus vous soucier du goudron. Roulez partout !</p>
+                    <p class="price">340.000 ar</p>
+                    <a href="#" class="btn-buy">Ajouter au panier</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section id="contact" class="contact-section">
+        <h2>Contactez-nous</h2>
+        <p class="contact-subtitle">Une question ? Envie de nous rejoindre pour une session de glisse ? Écrivez-nous !</p>
+        
+        <div class="contact-container">
+            <!-- Facebook -->
+            <div class="contact-item">
+                <div class="contact-icon">👤</div>
+                <h3>Facebook</h3>
+                <p><a href="https://facebook.com/harilandy elisa" target="_blank">harilandy elisa</a></p>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <h3>Adresse Email</h3>
+                <p><a href="mailto:harilandyelisa3@gmail.com">harilandyelisa3@gmail.com</a></p>
+            </div>
+
+            <!-- Téléphone -->
+            <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <h3>Téléphone</h3>
+                <p>
+                    <a href="tel:0345012705">034 50 127 05</a><br>
+                    <a href="tel:0332077048">033 20 770 48</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Freeskate Slalom. All rights reserved. Conçu pour les passionnés de glisse.</p>
+    </footer>
+
+</body>
+</html>
