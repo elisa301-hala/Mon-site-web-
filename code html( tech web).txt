@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.A.T Rollers | Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">GOAT<span>Skate</span><span class="number-10">10</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
+                <li><a href="propos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="panier.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Glissez avec la vitesse du <span>G.O.A.T</span></h1>
+        <p>Découvrez notre collection exclusive de rollers haute performance aux couleurs de la légende. Précision, agilité et style unique.</p>
+        <div class="cta-buttons">
+            <a href="boutique.html" class="btn">Acheter Maintenant</a>
+            <a href="propos.html" class="btn btn-secondary">Notre Histoire</a>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="page-title">Modèles <span>Vedettes</span></h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img" style="background: #e2f0fd; color: #75AADB;">[ Image Roller Albiceleste ]</div>
+                <div class="product-info">
+                    <h3 class="product-title">Roller Léo "Albiceleste" Pro</h3>
+                    <p class="product-price">189,99 €</p>
+                    <a href="panier.html" class="btn">Ajouter au panier</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img" style="
